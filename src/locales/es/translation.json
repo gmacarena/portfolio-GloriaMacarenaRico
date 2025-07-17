@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": {
+      "title": "Sobre mí",
+      "text": "Desarrolladora en formación con fuerte orientación hacia el desarrollo full stack e inteligencia artificial. Me destaco por mi compromiso, adaptabilidad y habilidades blandas clave como el pensamiento crítico, la colaboración y la resolución de problemas complejos. Estoy en constante crecimiento, con experiencia en Python, HTML, CSS, C, diseño de interfaces (mockups), y frameworks como Tkinter y PyQt.",
+      "quote": "No me conformo con aprender lo mínimo. Lo mínimo nunca alcanza mis sueños."
+    },
+    "aboutLabel": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": {
+      "title": "Habilidades"
+    },
+    "skillsLabel": "Habilidades",
+    "contact": {
+      "title": "Contacto",
+      "name": "Tu nombre",
+      "email": "Tu correo",
+      "message": "Escribí tu mensaje...",
+      "send": "Enviar mensaje",
+      "whatsapp": "Escribime por WhatsApp"
+    },
+    "contactLabel": "Contacto",
+    "certifications": "Certificaciones"
+  },
+  "home": {
+    "name": "Gloria Macarena Rico",
+    "role": "Desarrolladora en formación con pasión por la IA",
+    "highlight": "Construyendo soluciones con lógica, empatía y café.",
+    "aboutBtn": "Sobre mí",
+    "projectsBtn": "Ver proyectos",
+    "contactBtn": "Contacto",
+    "cvBtn": "Descargar CV"
+  },
+  "contrast": {
+    "normal": "Modo normal",
+    "high": "Alto contraste",
+    "activate": "Activar alto contraste",
+    "deactivate": "Desactivar alto contraste"
+  },
+  "aboutSection": {
+    "title": "Sobre mí",
+    "bio": "Soy Gloria Macarena Rico, estudiante de la Tecnicatura Superior en Desarrollo de Software. Me defino por mi compromiso, adaptabilidad y pensamiento crítico. Disfruto resolver problemas complejos, trabajar en equipo y aprender de cada desafío. Actualmente me especializo en desarrollo full stack e inteligencia artificial, y busco crecer profesionalmente aportando valor y creatividad.",
+    "quote": "¿Por qué contratarme? Porque convierto desafíos en oportunidades de aprendizaje y soluciones."
+  },
+  "footer": {
+    "phrase": "Lo mejor de este portafolio todavía no se escribió"
+  },
+  "listen": "Escuchar",
+  "listenHome": "Escuchar sección de inicio",
+  "listenAbout": "Escuchar sección sobre mí",
+  "skills": {
+    "hard": {
+      "python": "Python",
+      "javascript": "JavaScript",
+      "html": "HTML",
+      "css": "CSS",
+      "c": "C",
+      "tkinter": "Tkinter",
+      "pyqt": "PyQt",
+      "react": "React"
+    },
+    "soft": {
+      "criticalThinking": "Pensamiento crítico",
+      "collaboration": "Colaboración",
+      "problemSolving": "Resolución de problemas",
+      "adaptability": "Adaptabilidad",
+      "commitment": "Compromiso",
+      "teamwork": "Trabajo en equipo"
+    }
+  }
+}

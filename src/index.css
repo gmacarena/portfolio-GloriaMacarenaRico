@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-white;
+}
+
+.high-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+.high-contrast .bg-background {
+  background: #000 !important;
+}
+.high-contrast .text-primary,
+.high-contrast .text-purple-300 {
+  color: #ffff00 !important;
+}
+.high-contrast .border-primary,
+.high-contrast .border-yellow-300 {
+  border-color: #ffff00 !important;
+}
+.high-contrast a, .high-contrast button {
+  color: #ffff00 !important;
+  background: #000 !important;
+}

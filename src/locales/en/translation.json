@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": {
+      "title": "About Me",
+      "text": "Hi, I'm Gloria Macarena Rico, a student in Software Development, passionate about artificial intelligence and fullstack development. I love solving complex problems, collaborating with others, and I'm constantly seeking professional growth.",
+      "quote": "I'm not satisfied with learning the minimum. The minimum never reaches my dreams."
+    },
+    "aboutLabel": "About Me",
+    "projects": "Projects",
+    "skills": {
+      "title": "Skills"
+    },
+    "contact": {
+      "title": "Contact",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Write your message...",
+      "send": "Send message",
+      "whatsapp": "Message me on WhatsApp"
+    },
+    "contactLabel": "Contact",
+    "certifications": "Certifications"
+  },
+  "home": {
+    "name": "Gloria Macarena Rico",
+    "role": "Developer in training with a passion for AI",
+    "highlight": "Building solutions with logic, empathy, and coffee.",
+    "aboutBtn": "About Me",
+    "projectsBtn": "See Projects",
+    "contactBtn": "Contact",
+    "cvBtn": "Download CV"
+  },
+  "contrast": {
+    "normal": "Normal mode",
+    "high": "High contrast",
+    "activate": "Activate high contrast",
+    "deactivate": "Deactivate high contrast"
+  },
+  "aboutSection": {
+    "title": "About Me",
+    "bio": "I'm Gloria Macarena Rico, a student of Software Development. I define myself by my commitment, adaptability, and critical thinking. I enjoy solving complex problems, working in teams, and learning from every challenge. Currently, I specialize in full stack development and artificial intelligence, and I seek to grow professionally by bringing value and creativity.",
+    "quote": "Why hire me? Because I turn challenges into learning opportunities and solutions."
+  },
+  "footer": {
+    "phrase": "The best part of this portfolio hasn't been written yet"
+  },
+  "listen": "Listen",
+  "listenHome": "Listen to home section",
+  "listenAbout": "Listen to about section",
+  "skills": {
+    "hard": {
+      "python": "Python",
+      "javascript": "JavaScript",
+      "html": "HTML",
+      "css": "CSS",
+      "c": "C",
+      "tkinter": "Tkinter",
+      "pyqt": "PyQt",
+      "react": "React"
+    },
+    "soft": {
+      "criticalThinking": "Critical thinking",
+      "collaboration": "Collaboration",
+      "problemSolving": "Problem solving",
+      "adaptability": "Adaptability",
+      "commitment": "Commitment",
+      "teamwork": "Teamwork"
+    }
+  }
+}
