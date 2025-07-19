@@ -21,11 +21,16 @@ import GeometricBackground from './components/GeometricBackground';
 
 function App() {
   const { t } = useTranslation();
-  const [highContrast, setHighContrast] = useState(false);
+  const [theme, setTheme] = useState('dark'); // 'dark' por defecto
   const [isSpeakingHome, setIsSpeakingHome] = useState(false);
 
-  const toggleContrast = () => {
-    setHighContrast((prev) => !prev);
+  // Alterna entre los tres modos: dark -> light -> highContrast -> dark ...
+  const toggleTheme = () => {
+    setTheme((prev) => {
+      if (prev === 'dark') return 'light';
+      if (prev === 'light') return 'highContrast';
+      return 'dark';
+    });
   };
 
   useEffect(() => {
@@ -47,18 +52,29 @@ function App() {
     window.speechSynthesis.speak(utterance);
   };
 
+  // Determinar la clase de tema
+  let themeClass = '';
+  if (theme === 'light') themeClass = 'light-theme';
+  else if (theme === 'highContrast') themeClass = 'high-contrast';
+  // El modo dark es el default (sin clase extra)
+
+  // Determinar el texto del botón
+  let nextThemeLabel = '';
+  if (theme === 'dark') nextThemeLabel = t('contrast.light');
+  else if (theme === 'light') nextThemeLabel = t('contrast.high');
+  else nextThemeLabel = t('contrast.dark');
+
   return (
-    <div className={`app${highContrast ? ' high-contrast' : ''} min-h-screen bg-gradient-to-b from-primary via-background to-black relative`} role="main">
+    <div className={`app ${themeClass} min-h-screen bg-gradient-to-b from-primary via-background to-black relative`} role="main">
       <GeometricBackground />
       <Navbar />
-      {/* Botón de alto contraste flotante */}
+      {/* Botón de tema flotante */}
       <button
-        onClick={toggleContrast}
-        aria-pressed={highContrast}
-        aria-label={highContrast ? t('contrast.deactivate') : t('contrast.activate')}
+        onClick={toggleTheme}
+        aria-label={nextThemeLabel}
         className="fixed bottom-6 right-6 z-50 px-4 py-2 rounded-full bg-black/70 text-yellow-300 border border-yellow-300 shadow-lg opacity-60 hover:opacity-100 focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all"
       >
-        {highContrast ? t('contrast.normal') : t('contrast.high')}
+        {nextThemeLabel}
       </button>
       <div id="home" className="min-h-screen bg-background text-white flex flex-col items-center justify-center p-4" data-aos="fade-up">
         <img src={avatar} alt="Avatar de Gloria" className="w-40 h-40 rounded-full mb-6" />

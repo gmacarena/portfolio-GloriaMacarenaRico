@@ -95,7 +95,7 @@ const Contact = () => {
         <a href="https://github.com/gmacarena" target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-graydark text-white rounded-lg font-semibold hover:bg-primary transition-all duration-200 text-base shadow-sm">GitHub</a>
         <a href="/cv-gloria-rico.pdf" download className="px-6 py-2 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-black transition-all duration-200 text-base shadow-sm">Descargar CV</a>
       </div>
-      <p className="mt-6 text-center text-lg">
+      <p className="mt-6 text-center text-lg text-gray">
         {t('nav.contact.whatsapp')}: <a href="https://wa.me/543625309019" target="_blank" rel="noopener noreferrer" className="underline text-yellow-300">+54 9 3625 30-9019</a>
       </p>
     </section>

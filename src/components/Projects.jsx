@@ -78,7 +78,7 @@ const Projects = () => {
           <FaVolumeUp className={isSpeaking ? 'animate-pulse text-yellow-300 text-lg' : 'text-lg'} />
         </button>
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-6xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl">
         {projects.map((project, idx) => (
           <div key={idx} className="bg-graydark rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden flex flex-col border border-gray scale-100 hover:scale-105 transition-transform group">
             <div className="relative w-full h-48 overflow-hidden">
@@ -88,7 +88,7 @@ const Projects = () => {
                 className="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-110 group-hover:brightness-90 shadow-lg" 
               />
               <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent py-2 px-4 flex items-end">
-                <span className="text-lg font-bold text-yellow-300 drop-shadow-lg">{project.title}</span>
+                <span className="text-lg font-bold text-primary drop-shadow-lg">{project.title}</span>
               </div>
             </div>
             <div className="p-6 flex flex-col flex-1">

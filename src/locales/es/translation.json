@@ -36,7 +36,9 @@
     "normal": "Modo normal",
     "high": "Alto contraste",
     "activate": "Activar alto contraste",
-    "deactivate": "Desactivar alto contraste"
+    "deactivate": "Desactivar alto contraste",
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
   },
   "aboutSection": {
     "title": "Sobre mí",

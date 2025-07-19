@@ -38,7 +38,7 @@ const About = () => {
         </button>
       </h2>
       <img src={avatar} alt="Avatar de Gloria" className="w-32 h-32 rounded-full mb-8 border-4 border-primary shadow-lg animate-pulse" />
-      <p className="text-lg text-graylight text-center max-w-2xl mb-6 font-medium">
+      <p className="text-lg text-gray text-center max-w-2xl mb-6 font-medium">
         {t('aboutSection.bio')}
       </p>
       <blockquote className="italic text-center text-xl text-yellow-300 max-w-2xl font-semibold border-l-4 border-yellow-300 pl-4 py-2 bg-graydark/40 shadow-sm">“{t('aboutSection.quote')}”</blockquote>

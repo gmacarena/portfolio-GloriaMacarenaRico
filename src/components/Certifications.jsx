@@ -70,7 +70,7 @@ const Certifications = () => {
           <div key={idx} className="bg-graydark rounded-2xl shadow-xl flex flex-col items-center p-6 border border-gray hover:scale-105 transition-transform">
             <FaCertificate className="text-primary text-5xl mb-4" />
             <h3 className="text-base font-bold text-center mb-2 text-primary tracking-wide">{cert.title}</h3>
-            <span className="text-sm text-graylight">{cert.platform}</span>
+            <span className="text-sm text-gray">{cert.platform}</span>
           </div>
         ))}
       </div>

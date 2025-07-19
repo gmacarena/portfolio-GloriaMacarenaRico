@@ -11,6 +11,7 @@
     "skills": {
       "title": "Skills"
     },
+    "skillsLabel": "Skills",
     "contact": {
       "title": "Contact",
       "name": "Your name",
@@ -35,7 +36,9 @@
     "normal": "Normal mode",
     "high": "High contrast",
     "activate": "Activate high contrast",
-    "deactivate": "Deactivate high contrast"
+    "deactivate": "Deactivate high contrast",
+    "light": "Light mode",
+    "dark": "Dark mode"
   },
   "aboutSection": {
     "title": "About Me",

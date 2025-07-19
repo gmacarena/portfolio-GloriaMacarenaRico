@@ -29,3 +29,70 @@ body {
   color: #ffff00 !important;
   background: #000 !important;
 }
+
+.light-theme {
+  background: #f8fafc !important;
+  color: #222 !important;
+}
+.light-theme .bg-background {
+  background: #f8fafc !important;
+}
+.light-theme .text-primary,
+.light-theme .text-purple-300 {
+  color: #7c3aed !important;
+}
+.light-theme .border-primary,
+.light-theme .border-yellow-300 {
+  border-color: #7c3aed !important;
+}
+.light-theme a, .light-theme button {
+  color: #7c3aed !important;
+  background: #fff !important;
+}
+.light-theme .text-white {
+  color: #222 !important;
+}
+.light-theme .text-gray {
+  color: #444 !important;
+}
+.light-theme .text-graylight {
+  color: #666 !important;
+}
+.light-theme .text-primary {
+  color: #7c3aed !important;
+}
+.light-theme .bg-graydark {
+  background: #fff !important;
+}
+.light-theme .border-gray {
+  border-color: #e5e7eb !important;
+}
+.light-theme .bg-gray-900 {
+  background: #fff !important;
+  border: 2px solid #7c3aed !important;
+  box-shadow: 0 4px 24px 0 rgba(124,58,237,0.10), 0 1.5px 6px 0 rgba(0,0,0,0.08) !important;
+}
+.light-theme input,
+.light-theme textarea {
+  background: #f3f4f6 !important;
+  color: #222 !important;
+  border-color: #7c3aed !important;
+}
+.light-theme input:focus,
+.light-theme textarea:focus {
+  border-color: #a78bfa !important;
+  box-shadow: 0 0 0 2px #a78bfa33 !important;
+}
+.light-theme .text-primary {
+  color: #7c3aed !important;
+}
+.light-theme .text-gray {
+  color: #444 !important;
+}
+.light-theme ::placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+}
+.light-theme label {
+  color: #7c3aed !important;
+}

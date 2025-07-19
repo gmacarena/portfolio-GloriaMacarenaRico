@@ -56,7 +56,7 @@ const Skills = () => {
       </h2>
       <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
-          <h3 className="text-2xl font-semibold text-yellow-300 mb-6 tracking-wide">Hard Skills</h3>
+          <h3 className="text-2xl font-semibold text-primary mb-6 tracking-wide">Hard Skills</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
             {hardSkills.map((skill, index) => (
               <div
@@ -64,21 +64,18 @@ const Skills = () => {
                 className="flex flex-col items-center gap-2 bg-graydark/60 rounded-xl p-4 shadow hover:scale-110 hover:-translate-y-1 hover:animate-bounce transition-transform duration-300 focus-within:scale-110 focus-within:-translate-y-1 outline-none"
               >
                 <span style={{ fontSize: '2rem' }}>{skill.icon}</span>
-                <span className="text-base text-graylight text-center font-semibold">{t(`skills.hard.${skill.key}`)}</span>
+                <span className="text-base text-gray text-center font-semibold">{t(`skills.hard.${skill.key}`)}</span>
               </div>
             ))}
           </div>
         </div>
         <div>
-          <h3 className="text-2xl font-semibold text-yellow-300 mb-6 tracking-wide">Soft Skills</h3>
-          <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+          <h3 className="text-2xl font-semibold text-primary mb-6 tracking-wide">Soft Skills</h3>
+          <div className="grid grid-cols-2 gap-8">
             {softSkills.map((skill, index) => (
-              <span
-                key={index}
-                className="bg-yellow-300 text-black px-4 py-2 rounded-2xl text-base font-medium shadow"
-              >
-                {t(`skills.soft.${skill}`)}
-              </span>
+              <div key={index} className="flex flex-col items-center gap-2 bg-graydark/60 rounded-xl p-4 shadow hover:scale-110 hover:-translate-y-1 hover:animate-bounce transition-transform duration-300 focus-within:scale-110 focus-within:-translate-y-1 outline-none">
+                <span className="text-base text-gray text-center font-semibold">{t(`skills.soft.${skill}`)}</span>
+              </div>
             ))}
           </div>
         </div>
